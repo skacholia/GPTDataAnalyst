@@ -1,0 +1,15 @@
+
+
+openai
+streamlit
+streamlit_chat
+pinecone-client
+langchain
+matplotlib
+plotly
+plotly.express
+scipi
+numpy
+scikit-learn
+tenacity
+pillow
