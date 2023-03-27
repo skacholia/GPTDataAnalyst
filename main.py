@@ -3,7 +3,7 @@ import os.path
 import pathlib
 import pandas as pd
 from langchain.agents import create_csv_agent
-
+from langchain.llms import OpenAI
 
 st.write("""
 # GPT Data Analyst
