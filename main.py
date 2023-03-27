@@ -1,13 +1,7 @@
 import streamlit as st
 import os.path
 import pathlib
-from streamlit_chat import message
-from langchain.llms import OpenAIChat
-from langchain.llms import OpenAI
-from langchain.chains import ChatVectorDBChain
-from langchain.vectorstores import Pinecone
-from langchain.embeddings.openai import OpenAIEmbeddings
-
+import pandas as pd
 
 st.write("""
 # GPT Data Analyst
