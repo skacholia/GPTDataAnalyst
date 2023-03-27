@@ -5,6 +5,8 @@ import pandas as pd
 from langchain.agents import create_csv_agent
 from langchain.llms import OpenAI
 
+OPENAI_API_KEY = st.secrets["openai"]
+
 st.write("""
 # GPT Data Analyst
 """)
