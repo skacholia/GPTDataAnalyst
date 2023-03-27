@@ -1,11 +1,11 @@
 import streamlit as st
-import os.path
+import os
 import pathlib
 import pandas as pd
 from langchain.agents import create_csv_agent
 from langchain.llms import OpenAI
 
-OPENAI_API_KEY = st.secrets["openai"]
+os.environ["OPENAI_API_KEY"] = st.secrets["openai"]
 
 st.write("""
 # GPT Data Analyst
